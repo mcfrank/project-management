@@ -1,2 +1,5 @@
 # project-management
-Sample repository for project management webinar
+
+Sample repository for ManyBabies project management webinar
+
+

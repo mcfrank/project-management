@@ -1,0 +1,26 @@
+---
+title: "Sample writeup"
+author: "Mike Frank"
+date: "2024-02-20"
+output: html_document
+---
+
+This is an example of an RMarkdown script that could be built out into a paper. 
+
+We might use the `papaja` package to make it into a reproducible paper. 
+
+```{r}
+
+library(tidyverse)
+library(here)
+
+exp1 <- read_csv("data/exp1/data.csv")
+```
+
+
+```{r}
+ggplot(exp1, aes(x = hp, y = mpg)) + 
+  geom_point() + 
+  geom_smooth()
+```
+
